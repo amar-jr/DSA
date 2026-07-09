@@ -21,11 +21,8 @@ public:
         vector<vector<string>> ans;
 
         for(auto it:store){
-            vector<string> t;
-            for(string st:it.second){
-                t.push_back(st);
-            }
-            ans.push_back(t);
+            
+            ans.push_back(it.second);
         }
         return ans;
     }
