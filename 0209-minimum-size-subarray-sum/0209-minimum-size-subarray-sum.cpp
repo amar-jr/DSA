@@ -7,6 +7,7 @@ public:
         int i=0,j=0;
 
         while(j<nums.size()){
+            // Note that the sum should be greater than or Equal to the target
             sum+=nums[j];
             while(sum>=target){
                 ans=min(ans,j-i+1);
