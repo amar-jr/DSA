@@ -16,10 +16,10 @@ public:
         int sum=0;
         for(int i=0;i<nums.size();i++){
             sum+=nums[i];
-            count+=store[sum-k];
-            // if(store.find(sum-k)!=store.end()){
-            //     count+=store[sum-k];
-            // }
+
+            if(store.find(sum-k)!=store.end()){
+                count+=store[sum-k];
+            }
             store[sum]++;
         }
         return count;
