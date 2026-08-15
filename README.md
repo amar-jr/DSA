@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/amar-jr/DSA/tree/master/0049-group-anagrams) |
 | [0125-valid-palindrome](https://github.com/amar-jr/DSA/tree/master/0125-valid-palindrome) |
 | [0242-valid-anagram](https://github.com/amar-jr/DSA/tree/master/0242-valid-anagram) |
+| [0392-is-subsequence](https://github.com/amar-jr/DSA/tree/master/0392-is-subsequence) |
 ## Sorting
 |  |
 | ------- |
@@ -74,6 +75,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0075-sort-colors](https://github.com/amar-jr/DSA/tree/master/0075-sort-colors) |
 | [0125-valid-palindrome](https://github.com/amar-jr/DSA/tree/master/0125-valid-palindrome) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/amar-jr/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
+| [0392-is-subsequence](https://github.com/amar-jr/DSA/tree/master/0392-is-subsequence) |
 ## Binary Search
 |  |
 | ------- |
@@ -94,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0053-maximum-subarray](https://github.com/amar-jr/DSA/tree/master/0053-maximum-subarray) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/amar-jr/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0392-is-subsequence](https://github.com/amar-jr/DSA/tree/master/0392-is-subsequence) |
 ## Quicksort
 |  |
 | ------- |
