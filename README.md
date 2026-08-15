@@ -33,6 +33,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0049-group-anagrams](https://github.com/amar-jr/DSA/tree/master/0049-group-anagrams) |
 | [0053-maximum-subarray](https://github.com/amar-jr/DSA/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/amar-jr/DSA/tree/master/0075-sort-colors) |
+| [0078-subsets](https://github.com/amar-jr/DSA/tree/master/0078-subsets) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/amar-jr/DSA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0167-two-sum-ii-input-array-is-sorted](https://github.com/amar-jr/DSA/tree/master/0167-two-sum-ii-input-array-is-sorted) |
 | [0209-minimum-size-subarray-sum](https://github.com/amar-jr/DSA/tree/master/0209-minimum-size-subarray-sum) |
@@ -105,4 +106,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0011-container-with-most-water](https://github.com/amar-jr/DSA/tree/master/0011-container-with-most-water) |
+## Backtracking
+|  |
+| ------- |
+| [0078-subsets](https://github.com/amar-jr/DSA/tree/master/0078-subsets) |
+## Bit Manipulation
+|  |
+| ------- |
+| [0078-subsets](https://github.com/amar-jr/DSA/tree/master/0078-subsets) |
 <!---LeetCode Topics End-->
