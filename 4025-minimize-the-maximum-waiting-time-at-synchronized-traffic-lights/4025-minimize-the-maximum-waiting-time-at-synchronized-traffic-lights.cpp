@@ -6,18 +6,18 @@ public:
         int n=lights.size()-1;
         for(int i=0;i<arrivalTime.size();i++){
             int waiting=0;
-            for(int j=n; j>=0;j--){
+            // for(int j=n; j>=0;j--){
                 int extratime= arrivalTime[i]%period;
-                if(lights[j]>extratime){
+                if(lights[n]>extratime){
                     waiting=0;
-                    break;
+                    // break;
                 }
                 else{
                     waiting=max(waiting,period-extratime);
-                    break;
-                    j=j/2;
+                    // break;
+                    // j=j/2;
                 }
-            }
+            // }
             ans=max(ans,waiting);
         }
         if(ans==INT_MIN) ans=0;
