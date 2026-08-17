@@ -14,6 +14,7 @@ public:
                 }
                 else{
                     waiting=max(waiting,period-extratime);
+                    break;
                     j=j/2;
                 }
             }
