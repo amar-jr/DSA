@@ -2,25 +2,25 @@ class Solution {
 public:
     int minPenalty(int period, vector<int>& lights, vector<int>& arrivalTime) {
         int ans=INT_MIN;
-        sort(lights.begin(),lights.end());
-        int n=lights.size()-1;
+        int maxlight=lights[0];
+
+        for(int i=1;i<lights.size();i++){
+            maxlight=max(maxlight,lights[i]);
+        }
+        // sort(lights.begin(),lights.end());
+        // int n=lights.size()-1;
         for(int i=0;i<arrivalTime.size();i++){
             int waiting=0;
-            // for(int j=n; j>=0;j--){
-                int extratime= arrivalTime[i]%period;
-                if(lights[n]>extratime){
-                    waiting=0;
-                    // break;
-                }
-                else{
-                    waiting=max(waiting,period-extratime);
-                    // break;
-                    // j=j/2;
-                }
-            // }
+            int extratime= arrivalTime[i]%period;
+            if(maxlight>extratime){
+                waiting=0;
+            }
+            else{
+                waiting=max(waiting,period-extratime);
+            }
             ans=max(ans,waiting);
         }
-        if(ans==INT_MIN) ans=0;
+        // if(ans==INT_MIN) ans=0;
         return ans;
     }
 };
