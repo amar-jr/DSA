@@ -4,10 +4,7 @@ public:
         
         int ptr=0;
         for(int i=1; i<nums.size(); i++){
-            if(nums[i]==nums[ptr]){
-                continue;
-            }
-            else{
+            if(!(nums[i]==nums[ptr])){
                 ptr++;
                 nums[ptr]=nums[i];
             }
