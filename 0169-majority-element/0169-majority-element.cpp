@@ -23,6 +23,6 @@ public:
             }
         }
 
-        return count>=(nums.size()/2)? ele:-1;
+        return count>(nums.size()/2)? ele:-1;
     }
 };
