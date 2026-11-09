@@ -13,9 +13,8 @@ public:
                 if(i+1<s && prices[i+1] > prices[i]){
                     continue;
                 }
-                profit = max(profit, (prices[i]- price));
-                ans+=profit;
-                profit=0;
+                ans = ans+ (prices[i] - price);
+                // profit=0;
                 price=INT_MAX;
             }
         }
