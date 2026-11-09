@@ -1,19 +1,16 @@
 class Solution {
 public:
-    int maxProfit(vector<int>& arr) {
-        int n=arr.size();
-
-        int ans=0;
-        int temp=10e4+1;
-        for(int i=0;i<n;i++){
-            if(arr[i]<temp)
-            {
-                temp=arr[i];
+    int maxProfit(vector<int>& prices) {
+        int price = prices[0];
+        int profit=0;
+        for(int i=1 ;i<prices.size(); i++){
+            if(prices[i]<price){
+                price = prices[i];
             }
-            else if(temp!=10e4+1){
-                ans=max(ans, arr[i]-temp);
+            else{
+                profit = max(profit, (prices[i]-price));
             }
         }
-            return ans;
+        return profit;
     }
 };
